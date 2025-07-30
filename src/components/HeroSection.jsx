@@ -16,7 +16,7 @@ const HeroSection = () => {
               <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
-                  'Navod',
+                  'Navod Dilshan',
                   1000, // wait 1s before replacing "Mice" with "Hamsters"
                   'a Web Developer',
                   1000,
@@ -31,9 +31,10 @@ const HeroSection = () => {
               />
             </h1>
           <p className="text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl">
-            Tailwind won't automatically know about CSS variables, so you may need to
-            integrate them into the Tailwind config if you want to use them in
-            class utilities.
+                An ambitious and motivated final-year Computer Engineering 
+                student with a passion for mobile development, full-stack engineering, 
+                and machine learning. Seeking a challenging role to leverage my expertise 
+                to drive technological advancements
           </p>
           <div>
             <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
