@@ -4,6 +4,8 @@ import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection"; 
 import AboutSection from "@/components/AboutSection";
 import ProjectSection from "@/components/ProjectSection";
+import FooterSection from "@/components/FooterSection";
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
           <AboutSection />
           <ProjectSection />
         </div>
+        <FooterSection />
       </main>
   );
 }
