@@ -29,7 +29,7 @@ const TAB_DATA = [
                 <li>C++</li>
                 <li>Python</li>
                 <li>Java</li>
-                <li>JavaScrip</li>
+                <li>JavaScript</li>
                 <li>React.js / Next.js</li>
                 <li>React Native</li>
                 <li>Flutter</li>
@@ -77,10 +77,13 @@ const TAB_DATA = [
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base lg:text-lg'>
-                An ambitious and motivated final-year Computer Engineering 
-                student with a passion for mobile development, full-stack engineering, 
-                and machine learning. Seeking a challenging role to leverage my expertise 
-                to drive technological advancements
+                I am a final-year computer engineering undergraduate, set to graduate in August 2025, with a deep passion 
+                for learning new technologies and driving innovation. I thrive in collaborative environments where diverse 
+                perspectives spark creativity and success. My key strengths include resilience, enabling me to overcome challenges, and rapid, effective 
+                learning, which keeps me ahead in a competitive field. I enjoy leading teams to achieve common goals, 
+                supported by strong time management skills. Looking forward to contributing to impactful projects and growing 
+                as a tech innovator.  
+
             </p>
             <div className='flex flex-row mt-8'>
                 <TabButton selectTab={()=>(handleChange("Education"))} active={tab=="Education"}>Education</TabButton>
