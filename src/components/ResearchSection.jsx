@@ -27,7 +27,6 @@ const ResearchSection = () => {
                   title={Research.title} 
                   description={Research.description} 
                   imgUrl={Research.imgUrl}
-                  filePath={Research.filePath}
                   status={Research.published} />
               </motion.li>)}
         </ul>

@@ -40,7 +40,7 @@ const HeroSection = () => {
                 to drive technological advancements
           </p>
           <div>
-            <button onClick={() => window.open('/research/1.pdf', '_blank')} className='px-1 py-1 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800  mt-3'>
+            <button onClick={() => window.open('/cv/Dilshan K.M.N_CV.pdf', '_blank')} className='px-1 py-1 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800  mt-3'>
               <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span></button>
           </div>
         </motion.div>
