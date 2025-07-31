@@ -2,10 +2,11 @@
 import React, {useState, useTransition} from 'react'
 import Image from "next/image"
 import TabButton from './TabButton'
+import {animate, motion} from "framer-motion"
 
 
 const AboutSection = () => {
-const [tab, setTab] = useState("Skills");
+const [tab, setTab] = useState("Education");
 const [isPending, startTransition ] = useTransition();
 
 const handleChange = (id) => {
@@ -13,6 +14,11 @@ const handleChange = (id) => {
         setTab(id);
 });
 };
+
+const aboutVariant ={
+    initial:{y:50, opacity:0},
+    animate:{y:0, opacity:1}
+}
 
 const TAB_DATA = [
     {
@@ -24,7 +30,7 @@ const TAB_DATA = [
                 <li>Python</li>
                 <li>Java</li>
                 <li>JavaScrip</li>
-                <li>React.js</li>
+                <li>React.js / Next.js</li>
                 <li>React Native</li>
                 <li>Flutter</li>
                 <li>Node.js</li>
@@ -49,14 +55,23 @@ const TAB_DATA = [
         id:"Certifications",
         content:(
             <ul className="list-disc pl-5">
-                <li>Python for Beginners<br/>Offered by University of Moratuwa</li>
+                <li>Python for Beginners</li>
                 <li>Web Design for Beginners</li>
+                <li>Java Object Oriented Programming</li>
+                <li>SQL Essential Training</li>
+                <li>Learning Linux Shell Scripting</li>
+                <li>Learning Jenkins</li>
             </ul>
         )
     },
 ]
   return (
-    <section className='text-white '>
+    <motion.section id="about" 
+    variants={aboutVariant}
+    initial="initial"
+    animate="animate"
+    transition={{duration:0.3}}
+    className='text-white '>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 '>
         <Image src="/images/about.png" alt="about" width={550} height={550} className='rounded-4xl'/>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
@@ -77,7 +92,7 @@ const TAB_DATA = [
                 {TAB_DATA.find((t)=>(t.id===tab)).content}
             </div>
         </div>
-        </div></section>
+        </div></motion.section>
   )
 }
 

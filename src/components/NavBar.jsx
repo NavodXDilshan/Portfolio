@@ -9,6 +9,10 @@ import MenuOverLay from './MenuOverLay'
 
 
 const navLinks =[
+    {
+    title:"Home",
+    path:"#hero",
+  },
   {
     title:"About",
     path:"#about",
@@ -16,6 +20,10 @@ const navLinks =[
   {
     title:"Projects",
     path:"#projects",
+  },
+  {
+    title:"Research",
+    path:"#Research",
   },
   {
     title:"Contact",
