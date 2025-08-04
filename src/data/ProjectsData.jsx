@@ -62,6 +62,15 @@ const ProjectsData = [{
         gitUrl:"https://github.com/NavodXDilshan/Babymate.git",
         previewUrl:"images/projects/babymate/slide.png",
     },
+        {
+        id: 8,
+        title: "Simple Job Board",
+        description: "A responsive web page to filter and display jobs and related information. The web page is connected to firebase and gets the data from there", 
+        image:"images/projects/jobboard/thumbnail.png",
+        name: ["All", "Web"],
+        gitUrl:"https://github.com/NavodXDilshan/Job-Board.git",
+        previewUrl:"images/projects/jobboard/slide.png",
+    },
 
 ]
 
