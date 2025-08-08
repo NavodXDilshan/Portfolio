@@ -40,7 +40,8 @@ const filteredProjects = ProjectsData.filter((project)=>project.name.includes(ta
                   imgUrl={project.image} 
                   tags={project.tag}  
                   gitUrl={project.gitUrl}
-                  previewUrl={project.previewUrl}/>
+                  previewUrl={project.previewUrl}
+                  tech={project.tech}/>
               </motion.li>)}
         </ul>
     </section>

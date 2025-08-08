@@ -6,6 +6,7 @@ const ProjectsData = [{
         name: ["All", "Mobile"],
         gitUrl:"https://github.com/NavodXDilshan/WanderNet-FYP-.git",
         previewUrl:"images/projects/wandernet/slide.png",
+        tech:["Flutter","MongoDB","React","LLM","Node.js"]
     },
     {
         id: 2 ,
@@ -15,6 +16,7 @@ const ProjectsData = [{
         name: ["All", "Web"],
         gitUrl:"https://github.com/NavodXDilshan/Job-Portal.git",
         previewUrl:"images/projects/jobportal/slide.png",
+        tech:["Spring Cloud","MongoDB","Java", "Microservices","Docker"]
     },
     {
         id: 3,
@@ -24,6 +26,7 @@ const ProjectsData = [{
         name: ["All", "Web"],
         gitUrl:"https://github.com/NavodXDilshan/Portfolio.git",
         previewUrl:"images/projects/portfolio/slide.png",
+        tech:["Next.js","Tailwind CSS","Framer Motion","JavaScript"]
     },
     {
         id: 4,
@@ -33,6 +36,7 @@ const ProjectsData = [{
         name: ["All", "Mobile"],
         gitUrl:"https://github.com/NavodXDilshan/Health_Detect.git",
         previewUrl:"images/projects/healthdetect/slide.png",
+        tech:["React Native","React","Node.js","Firebase","ML","Expo","Gemini"]
     },
 
     {
@@ -43,6 +47,7 @@ const ProjectsData = [{
         name: ["All", "Web"],
         gitUrl:"https://github.com/NavodXDilshan/ethnicproject.git",
         previewUrl:"images/projects/awareness/slide.png",
+        tech:["Next.js","Tailwind CSS","Excel Integration","TypeScript"]
     },
     {
         id: 6,
@@ -52,6 +57,7 @@ const ProjectsData = [{
         name: ["All", "Web"],
         gitUrl:"https://github.com/NavodXDilshan/Maze-Solver.git",
         previewUrl:"images/projects/mazesolver/slide.png",
+        tech:["JavaScript","CSS","Computer Vision","OpenCV"]
     },
     {
         id: 7,
@@ -61,6 +67,7 @@ const ProjectsData = [{
         name: ["All", "Mobile"],
         gitUrl:"https://github.com/NavodXDilshan/Babymate.git",
         previewUrl:"images/projects/babymate/slide.png",
+        tech:["React Native","React","Node.js","Firebase"]
     },
         {
         id: 8,
@@ -70,6 +77,7 @@ const ProjectsData = [{
         name: ["All", "Web"],
         gitUrl:"https://github.com/NavodXDilshan/Job-Board.git",
         previewUrl:"images/projects/jobboard/slide.png",
+        tech:["React,js","Tailwind CSS","Firebase","TypeScript"]
     },
 
 ]

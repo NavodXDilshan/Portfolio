@@ -2,7 +2,7 @@ import React from 'react'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/solid'
 import Link from "next/link"
 
-const ProjectCards = ({imgUrl, title, description, gitUrl, previewUrl}) => {
+const ProjectCards = ({imgUrl, title, description, gitUrl, previewUrl, tech}) => {
   return (
     <div>
         <div className="h-52 nd:h-72 rounded-t-xl relative group"
@@ -22,7 +22,11 @@ const ProjectCards = ({imgUrl, title, description, gitUrl, previewUrl}) => {
         <div className='text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4'>
             <h5 className='text-xl font-semibold mb-2'>{title}</h5>
             <p className='text-[#ADB7BE]'>{description}</p>
-
+            <div className='flex flex-row flex-wrap gap-2 mt-2 items-center justify-left '>
+                {tech.map((item,index)=>(
+                    <div key={index} className='bg-purple-500 px-3 text-center rounded-md hover:text-black '>{item}</div>
+                ))}
+            </div>
         </div>
     </div>
   )
