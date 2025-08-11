@@ -6,7 +6,7 @@ const ProjectsData = [{
         name: ["All", "Mobile"],
         gitUrl:"https://github.com/NavodXDilshan/WanderNet-FYP-.git",
         previewUrl:"images/projects/wandernet/slide.png",
-        tech:["Flutter","MongoDB","React","LLM","Node.js"]
+        tech:["Flutter","MongoDB","React","LLM","Node.js","FastAPI","Google Maps API","Pydantic"]
     },
     {
         id: 2 ,
