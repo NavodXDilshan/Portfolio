@@ -24,7 +24,7 @@ const ProjectCards = ({imgUrl, title, description, gitUrl, previewUrl, tech}) =>
             <p className='text-[#ADB7BE]'>{description}</p>
             <div className='flex flex-row flex-wrap gap-2 mt-2 items-center justify-left '>
                 {tech.map((item,index)=>(
-                    <div key={index} className='bg-purple-500 px-3 text-center rounded-md hover:text-black '>{item}</div>
+                    <div key={index} className='bg-gradient-to-br from-purple-500  via-blue-500 to-pink-500 px-3 text-center rounded-md hover:text-black md:text-sm text-xs'>{item}</div>
                 ))}
             </div>
         </div>

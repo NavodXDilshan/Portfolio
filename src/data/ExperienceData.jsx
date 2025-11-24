@@ -11,6 +11,17 @@ const ExperienceData = [
         ],
         imgUrl: "images/work/lseg.png"
     },
+
+    {
+        id: 2,
+        title: "Software Developer",
+        company: "Astriv Solutions",
+        duration: "September 2025 - Present",
+        description: ["Responsible for the developement of the company's flagship product",
+            "Developed the frontend using Next.js and backend using Node.js and Supabase is being used as the database for the product"
+        ],
+        imgUrl: "images/work/flaire.png"
+    },
     
 ]
 

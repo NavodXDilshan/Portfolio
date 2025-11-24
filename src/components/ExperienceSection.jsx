@@ -15,7 +15,7 @@ const ExperienceSection = () => {
   return (
     <section id="experience">
         <h2 className='text-center text-4xl font-bold text-white mt-10 mb-2'>Work Experience</h2>
-        <ul ref={ref} >
+        <ul className='space-y-[15px]' ref={ref} >
             {ExpData.map((Exp, index)=>
             <motion.li variants={cardVariants} 
             initial="initial" 

@@ -36,10 +36,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl">
-            Ambitious final-year Computer Engineering student passionate about mobile development, 
-            full-stack engineering, and machine learning. With an expected graduation in August 2025, 
-            I am seeking a challenging software development role to apply my expertise and drive 
-            technological innovation.
+            An ambitious Engineer passionate about software engineering, mobile
+            development, full-stack engineering, and machine learning. Having graduated in
+            August 2025, I am seeking a challenging software development role to apply
+            my expertise and drive technological innovation.
 
           </p>
           <div>
